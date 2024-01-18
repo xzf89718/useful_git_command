@@ -13,8 +13,10 @@ alias COMMIT_GIT_REVISION="git commit -m"
 # Submit all revision with timestamp
 alias COMMIT_GIT_REVISION_TIMESTAMP="source $USEFUL_GIT_COMMAND_INSTALL/commit_git_with_timetag.sh"
 
-# Show all revision since last commit
-alias SHOW_GIT_DIFF="git diff"
+# Show all revision since last commit(HEAD)
+alias SHOW_GIT_DIFF="git diff HEAD"
+# Show all revision compared to git's stage
+alias SHOW_GIT_DIFF_STAGE="git diff"
 # Show all submit history
 alias SHOW_GIT_LOG="git log"
 # Show git status

@@ -26,9 +26,13 @@ Show git status. Use it to check all file status
 ```bash
 SHOW_GIT_STATUS
 ```
-Show all revision since last commit.
+Show all revision since last commit(HEAD).
 ```bash
 SHOW_GIT_DIFF
+```
+Show all revision compared to git's stage.
+```bash
+SHOW_GIT_DIFF_STAGE
 ```
 Show all submit history with timestamp.
 ```bash
